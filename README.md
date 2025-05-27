@@ -47,7 +47,12 @@
 
 - Log back into the windows-vm
 - Back in Wireshark, start a packet capture up
+
+
 - Filter for SSH traffic only
+
+![image](https://github.com/user-attachments/assets/02f28c9f-d2b4-458b-9fbb-8974885f2396)
+
 - From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
 - Open PowerShell, and type: ssh labuser@<private IP address>
     - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
