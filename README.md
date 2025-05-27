@@ -96,6 +96,10 @@
     - Observe the DNS traffic being show in WireShark
 
 
+![image](https://github.com/user-attachments/assets/22c6b71e-819a-4382-b916-24fd75209a26)
+
+![image](https://github.com/user-attachments/assets/7c46d324-c79b-4d88-b13c-d4414e6699ed)
+
 
 
 <h2>(Observe RDP Traffic)</h2>
