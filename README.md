@@ -67,6 +67,10 @@
 
     - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
+  ![image](https://github.com/user-attachments/assets/e308f200-1c36-470b-a5df-ec1b5fe52141)
+
+
+
 <h2>(Observe DHCP Traffic)</h2>
 
 
