@@ -14,21 +14,23 @@
 
 
   
-Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
-Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
-Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
-Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
-Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
-Stop the ping activity
+- Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
+    - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+    - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+    - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
+    - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+    - Stop the ping activity
 
-(Observe SSH Traffic)
-Log back into the windows-vm
-Back in Wireshark, start a packet capture up
-Filter for SSH traffic only
-From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
-Open PowerShell, and type: ssh labuser@<private IP address>
-Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
-Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+<h2>(Observe SSH Traffic)</h2>
+
+
+- Log back into the windows-vm
+- Back in Wireshark, start a packet capture up
+- Filter for SSH traffic only
+- From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
+- Open PowerShell, and type: ssh labuser@<private IP address>
+    - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+    - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
 (Observe DHCP Traffic)
 Back in Wireshark, filter for DHCP traffic only
