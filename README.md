@@ -32,23 +32,32 @@
     - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
     - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
-(Observe DHCP Traffic)
-Back in Wireshark, filter for DHCP traffic only
-From your Windows 10 VM, attempt to issue your VM a new IP address from the command line
-Open PowerShell as admin and run: ipconfig /renew
-Observe the DHCP traffic appearing in WireShark
+<h2>(Observe DHCP Traffic)</h2>
+- Back in Wireshark, filter for DHCP traffic only
+- From your Windows 10 VM, attempt to issue your VM a new IP address from the command line
+     - Open PowerShell as admin and run: ipconfig /renew
+     - Observe the DHCP traffic appearing in WireShark
 
-Observe DNS Traffic)
-Back in Wireshark, filter for DNS traffic only
-From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
-Observe the DNS traffic being show in WireShark
 
-(Observe RDP Traffic)
+
+<h2>Observe DNS Traffic)</h2>
+- Back in Wireshark, filter for DNS traffic only
+- From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are
+    - Observe the DNS traffic being show in WireShark
+
+
+
+
+<h2>(Observe RDP Traffic)</h2>
 Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 Observe the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
 Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 
-Lab Cleanup (DON’T FORGET THIS)
+
+
+
+
+<h2>Lab Cleanup (DON’T FORGET THIS)<h2/>
 Close your Remote Desktop connection
 Delete the Resource Group(s) created at the beginning of this lab
 Verify Resource Group Deletion
