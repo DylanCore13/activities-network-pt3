@@ -20,9 +20,22 @@
 
    
   - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+
+![image](https://github.com/user-attachments/assets/0d380db0-5275-4e8f-b5b5-05eef980f160)
+
+
+
+
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+
+
+
   - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
+
+
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+
+
   - Stop the ping activity
 
 <h2>(Observe SSH Traffic)</h2>
