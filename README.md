@@ -36,6 +36,9 @@
 
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
 
+![image](https://github.com/user-attachments/assets/09a49b71-7be5-441b-8074-4896fa57b73a)
+
+
 
   - Stop the ping activity
 
