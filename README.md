@@ -15,6 +15,9 @@
 
   
 - Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM
+
+![image](https://github.com/user-attachments/assets/1e52d039-8200-482b-9d4b-dd10a656a03d)
+
     - Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
     - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
     - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
