@@ -26,11 +26,10 @@
 ![image](https://github.com/user-attachments/assets/f3355f26-b9f7-4c48-9a85-83d604208e87)
 
 
-![image](https://github.com/user-attachments/assets/22c8188b-d56b-4760-910a-59a2f76859b4)
 
   - Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
 
-
+![image](https://github.com/user-attachments/assets/22c8188b-d56b-4760-910a-59a2f76859b4)
 
   - Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
 
