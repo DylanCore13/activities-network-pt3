@@ -54,8 +54,17 @@
 ![image](https://github.com/user-attachments/assets/02f28c9f-d2b4-458b-9fbb-8974885f2396)
 
 - From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
+
+
 - Open PowerShell, and type: ssh labuser@<private IP address>
+
+
     - Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+ 
+  ![image](https://github.com/user-attachments/assets/b8fc99f2-4aa4-42b3-a26a-f936a05935e1)
+
+ 
+
     - Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
 <h2>(Observe DHCP Traffic)</h2>
