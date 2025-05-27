@@ -75,12 +75,16 @@
 
 
 - Back in Wireshark, filter for DHCP traffic only
+
+
   
 - From your Windows 10 VM, attempt to issue your VM a new IP address from the command line
+  
      - Open PowerShell as admin and run: ipconfig /renew
+
      - Observe the DHCP traffic appearing in WireShark
 
-
+![image](https://github.com/user-attachments/assets/c0e1ae2e-a26b-49d9-90df-afc2ce49faac)
 
 <h2>Observe DNS Traffic)</h2>
 
